@@ -1,3 +1,6 @@
-# Architecture and design patterns
+# Архитектура и шаблоны проектирования
 
-Home works for course ["Architecture and design patterns"](https://otus.ru/lessons/patterns) from OTUS
+Домашние работы курса ["Архитектура и шаблоны проектирования"](https://otus.ru/lessons/patterns) от OTUS
+
+Все задания выполнены на языке Scala
+

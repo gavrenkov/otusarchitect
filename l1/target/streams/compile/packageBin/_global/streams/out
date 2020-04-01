@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/l1_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/Primer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/Primer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/Primer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/Primer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/MyStringArray.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/MyStringArray.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/MyString.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/MyString.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/StringStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/StringStack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus/architect/Primer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vz250004/Projects/otusarchitect/l1/target/scala-2.13/classes/otus/architect/Primer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
