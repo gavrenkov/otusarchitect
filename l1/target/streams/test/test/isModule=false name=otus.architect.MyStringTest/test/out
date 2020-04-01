@@ -1,7 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mMyStringTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- no parameter constructor, check value[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- no parameter constructor, check size[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- string constructor, check value[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- string constructor, check size[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- char constructor, check value[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- char constructor, check size[0m[0m
