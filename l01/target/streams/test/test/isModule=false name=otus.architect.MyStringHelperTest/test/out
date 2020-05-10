@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMyStringHelperTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- string to char array[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- substring to char array *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array('b') did not equal Array('a', 'b', 'c') (MyStringHelperTest.scala:13)[0m[0m

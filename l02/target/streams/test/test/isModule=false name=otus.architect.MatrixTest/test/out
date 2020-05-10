@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMatrixTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Compute two 2 x 2 matrices multiplications in one thread[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Compute two 3 x 3 matrices multiplications in one thread[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Compute two 2 x 2 matrices multiplications in four threads[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Compute two 3 x 3 matrices multiplications in nine thread[0m[0m
