@@ -20,8 +20,8 @@
 
 Задача выполнена на языке Scala.
 
-В Scala есть конструкция *object*. Она определяет единственный экземпляр класса (Singleton). Пример использования object находится в файле Logger.scala
+В Scala есть конструкция *object*. Она определяет единственный экземпляр класса (Singleton). Пример использования object находится в файле *Logger.scala*
 
-Также был реализован Singleton методом "On Demand Holder". Он находится в файле Singleton.scala
+Также был реализован Singleton методом "On Demand Holder". Он находится в файле *Singleton.scala*
 
 Вызывается logger в классе Compute.
