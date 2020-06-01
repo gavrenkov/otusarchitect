@@ -9,7 +9,7 @@ object MatrixMultiplication {
       println("where:")
       println("  -p P  - number of threads")
       println("  file1 - file with the first matrix data")
-      println("  file1 - file with the second matrix data")
+      println("  file2 - file with the second matrix data")
       sys.exit(-1)
     }
 
@@ -18,7 +18,7 @@ object MatrixMultiplication {
       try {
       Matrix(args(2))
     } catch {
-      case e: Exception => exitError(e.toString)
+      case e: Throwable => exitError(e.toString)
         new Matrix()
     }
 
@@ -29,7 +29,7 @@ object MatrixMultiplication {
       try {
         Matrix(args(3))
       } catch {
-        case e: Exception => exitError(e.toString)
+        case e: Throwable => exitError(e.toString)
           new Matrix()
       }
 

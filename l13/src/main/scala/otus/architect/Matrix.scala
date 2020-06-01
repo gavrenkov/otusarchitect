@@ -131,6 +131,6 @@ class Matrix {
 // Объект-компаньон
 object Matrix {
   def apply(n: Int, m: Int): Matrix = new Matrix(n, m)
-  def apply(filename: String) = new Matrix(filename)
-  def apply(array: Array[Array[Int]]) = new Matrix(array)
+  def apply(filename: String): Matrix = new Matrix(filename)
+  def apply(array: Array[Array[Int]]): Matrix = new Matrix(array)
 }
