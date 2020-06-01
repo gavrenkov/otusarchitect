@@ -25,3 +25,7 @@
 Также был реализован Singleton методом "On Demand Holder". Он находится в файле *Singleton.scala*
 
 Вызывается logger в классе Compute.
+
+Пример запуска: *java -jar target/scala-2.13/l13-assembly-1.0.jar -p 10 data/matA10.txt data/matB10.txt*
+
+Журнал сохраняется в файл *MatrixMultiplication.log*
