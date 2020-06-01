@@ -99,3 +99,31 @@
 22:03:10.948	Thread 5 compute cell 5 8
 22:03:10.949	Thread 5 compute cell 5 9
 22:03:10.949	Thread 9 compute cell 9 9
+23:42:44.501	Вычисляем произведение в один поток
+23:42:44.506	Thread 1 compute cell 0 0
+23:42:44.506	Thread 2 compute cell 0 1
+23:42:44.506	Thread 4 compute cell 1 1
+23:42:44.506	Thread 3 compute cell 1 0
+23:42:44.508	Thread 1 compute cell 0 0
+23:42:44.508	Thread 2 compute cell 0 1
+23:42:44.508	Thread 3 compute cell 0 2
+23:42:44.508	Thread 4 compute cell 1 0
+23:42:44.508	Thread 5 compute cell 1 1
+23:42:44.509	Thread 6 compute cell 1 2
+23:42:44.509	Thread 7 compute cell 2 0
+23:42:44.509	Thread 8 compute cell 2 1
+23:42:44.509	Thread 9 compute cell 2 2
+23:44:21.129	Вычисляем произведение в один поток
+23:44:21.133	Thread 1 compute cell 0 0
+23:44:21.133	Thread 2 compute cell 0 1
+23:44:21.133	Thread 4 compute cell 1 1
+23:44:21.133	Thread 3 compute cell 1 0
+23:44:21.135	Thread 1 compute cell 0 0
+23:44:21.135	Thread 2 compute cell 0 1
+23:44:21.135	Thread 3 compute cell 0 2
+23:44:21.135	Thread 5 compute cell 1 1
+23:44:21.135	Thread 4 compute cell 1 0
+23:44:21.135	Thread 6 compute cell 1 2
+23:44:21.136	Thread 7 compute cell 2 0
+23:44:21.136	Thread 8 compute cell 2 1
+23:44:21.136	Thread 9 compute cell 2 2
