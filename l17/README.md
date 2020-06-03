@@ -16,4 +16,4 @@
 
 Трейт *Sorting* представляет собой абстрактную фабрику. Классы *DefaultSort*, *SelectionSort*, *InsertionSort* и *MergeSort* наследуются от него.
 
-Пример вызова% *java -jar target/scala-2.13/l17-assembly-1.0.jar merge data/input1.txt data/output1M.txt*
+Пример вызова: *java -jar target/scala-2.13/l17-assembly-1.0.jar merge data/input1.txt data/output1M.txt*
