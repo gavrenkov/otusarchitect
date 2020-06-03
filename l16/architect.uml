@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="1127.0" y="311.0">otus.architect.insertionSort$class</node>
+    <node x="297.0" y="311.0">otus.architect.Main</node>
+    <node x="0.0" y="311.0">otus.architect.Main$</node>
+    <node x="515.0" y="496.0">otus.architect.Sorting$class</node>
+    <node x="415.0" y="180.0">otus.architect.insertionSort</node>
+    <node x="622.5" y="0.0">otus.architect.Sorting</node>
+    <node x="830.0" y="180.0">otus.architect.mergeSort</node>
+    <node x="1245.0" y="180.0">otus.architect.selectionSort</node>
+    <node x="0.0" y="148.0">otus.architect.Decorator</node>
+    <node x="0.0" y="496.0">otus.architect.mergeSort$class</node>
+    <node x="594.0" y="311.0">otus.architect.selectionSort$class</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="otus.architect.Decorator" target="otus.architect.Sorting">
+      <point x="0.0" y="-59.0" />
+      <point x="197.5" y="118.0" />
+      <point x="671.875" y="118.0" />
+      <point x="-148.125" y="49.0" />
+    </edge>
+    <edge source="otus.architect.mergeSort" target="otus.architect.Sorting">
+      <point x="0.0" y="-27.0" />
+      <point x="1027.5" y="128.0" />
+      <point x="869.375" y="128.0" />
+      <point x="49.375" y="49.0" />
+    </edge>
+    <edge source="otus.architect.insertionSort" target="otus.architect.Sorting">
+      <point x="0.0" y="-27.0" />
+      <point x="612.5" y="128.0" />
+      <point x="770.625" y="128.0" />
+      <point x="-49.375" y="49.0" />
+    </edge>
+    <edge source="otus.architect.selectionSort" target="otus.architect.Sorting">
+      <point x="0.0" y="-27.0" />
+      <point x="1442.5" y="118.0" />
+      <point x="968.125" y="118.0" />
+      <point x="148.125" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="761.5" y="222.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
