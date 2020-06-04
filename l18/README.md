@@ -19,4 +19,19 @@
 
 Задача выполнена на языке Scala.
 
-Пример вызова: *java -jar target/scala-2.13/l17-assembly-1.0.jar merge data/input1.txt data/output1M.txt*
+Код работы с матрицами находится в классе *Matrix*
+
+Абстрактный класс *MatrixOps* реализует шаблон матричных операций.
+
+Матричные операции реализованы конкретными классами:
+- *MatrixMult* - перемножение матриц
+- *MatrixAdd* - сложение матриц
+- *MatrixTrans* - транспонирование матриц
+- *MatrixDet* - определитель матрицы (детерминант)
+
+Вызов: *ops input ... output*, где:
+- *ops* - символ операции (*, +, t, d)
+- *input ...* - имена входных файлов (один или два)
+- *output* - имя выходного файла
+
+Пример вызова: *java -jar target/scala-2.13/l18-assembly-1.0.jar t data/trans1I.txt data/trans1O.txt*
