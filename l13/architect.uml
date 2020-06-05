@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">otus.architect.Matrix</node>
+    <node x="0.0" y="537.0">otus.architect.Matrix$</node>
+    <node x="273.0" y="190.0">otus.architect.Singleton.SingletonHolder$</node>
+    <node x="530.0" y="764.0">otus.architect.Logger</node>
+    <node x="550.0" y="0.0">otus.architect.MatrixMultiplication$</node>
+    <node x="446.0" y="537.0">otus.architect.MatrixMultiplication</node>
+    <node x="289.0" y="0.0">otus.architect.Singleton</node>
+    <node x="0.0" y="764.0">otus.architect.Compute</node>
+    <node x="226.0" y="537.0">otus.architect.Logger$</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="otus.architect.Singleton.SingletonHolder$" target="otus.architect.Singleton">
+      <point x="0.0" y="-69.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="314.5" y="369.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Open Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
