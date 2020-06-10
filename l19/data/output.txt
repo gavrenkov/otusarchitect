@@ -1,0 +1,10 @@
+Input is correct
+
+Command:  	cmd
+Parameter:	par1
+Parameter:	par2
+Key:      	-a
+Parameter:	"kp1 kp2"
+Key:      	-c
+Key:      	-s
+Parameter:	sp
