@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>otus.architect</OriginalElement>
+  <nodes>
+    <node x="0.0" y="278.0">otus.architect.QuoteState</node>
+    <node x="1486.25" y="43.0">otus.architect.State$class</node>
+    <node x="0.0" y="1225.0">otus.architect.Key$</node>
+    <node x="1074.0" y="1225.0">otus.architect.Token</node>
+    <node x="0.0" y="910.0">otus.architect.l19$</node>
+    <node x="368.0" y="278.0">otus.architect.CommandState</node>
+    <node x="0.0" y="593.0">otus.architect.Parameter</node>
+    <node x="382.0" y="593.0">otus.architect.Error</node>
+    <node x="1104.0" y="278.0">otus.architect.ParameterState</node>
+    <node x="814.0" y="910.0">otus.architect.Command$</node>
+    <node x="353.0" y="910.0">otus.architect.Parameter$</node>
+    <node x="764.0" y="593.0">otus.architect.Key</node>
+    <node x="1472.0" y="322.0">otus.architect.State.keyType$</node>
+    <node x="1146.0" y="593.0">otus.architect.Command</node>
+    <node x="736.0" y="0.0">otus.architect.State</node>
+    <node x="736.0" y="278.0">otus.architect.KeyState</node>
+    <node x="772.0" y="1225.0">otus.architect.StateContext</node>
+    <node x="1274.0" y="910.0">otus.architect.Error$</node>
+    <node x="419.0" y="1225.0">otus.architect.l19</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="otus.architect.State.keyType$" target="otus.architect.State$class">
+      <point x="49.75" y="-91.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="otus.architect.KeyState" target="otus.architect.State">
+      <point x="0.0" y="-135.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="otus.architect.CommandState" target="otus.architect.State">
+      <point x="0.0" y="-135.0" />
+      <point x="542.0" y="258.0" />
+      <point x="840.4" y="258.0" />
+      <point x="-69.60000000000002" y="114.0" />
+    </edge>
+    <edge source="otus.architect.State.keyType$" target="otus.architect.State">
+      <point x="-49.75" y="-91.0" />
+      <point x="1521.75" y="248.0" />
+      <point x="1049.2" y="248.0" />
+      <point x="139.20000000000005" y="114.0" />
+    </edge>
+    <edge source="otus.architect.QuoteState" target="otus.architect.State">
+      <point x="0.0" y="-135.0" />
+      <point x="174.0" y="248.0" />
+      <point x="770.8" y="248.0" />
+      <point x="-139.20000000000005" y="114.0" />
+    </edge>
+    <edge source="otus.architect.ParameterState" target="otus.architect.State">
+      <point x="0.0" y="-135.0" />
+      <point x="1278.0" y="258.0" />
+      <point x="979.6" y="258.0" />
+      <point x="69.60000000000002" y="114.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5288919102651257" x="878.8039845758356" y="752.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

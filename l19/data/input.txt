@@ -1,0 +1,1 @@
+cmd par1 par2 -a "kp1 kp2 " -c -s sp
