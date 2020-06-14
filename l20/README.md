@@ -9,8 +9,14 @@
 
 **Решение**
 
-Задача выполнена на языке Scala. В Scala вместо интерфейса используется Trait.
+Задача выполнена на языке Scala.
+
+Класс *Fibonacci* реализует элемент последовательности чисел Фибонначи.
+
+Классы *FibonacciForwardAggregator* и *FibonacciBackwardAggregator* представляют собой агрегаты для прохождения последовательности в прямом и обратном порядках.
+
+Для этого используются классы *FibonacciForwardIterator* и *FibonacciBackwardIterator* соответственно.
 
 UML диаграмма находится в файлах *UML*.
 
-Пример вызова: *java -jar target/scala-2.13/l19-assembly-1.0.jar < data/input.txt > data/output.txt*
+Пример вызова: *java -jar target/scala-2.13/l20-assembly-1.0.jar 0 5 data/from0to5.txt*
