@@ -16,7 +16,12 @@
 
 Задача выполнена на языке Scala.
 
+Абстрактный класс *Handler* представляет собой обработчик файлов.
+
+Обработчики конкретных типов файлов содержатся в классах *XMLHandler*, *JSONHandler*, *CSVHandler* и *TXTHandler*
+
+Программа создаёт цепочку ответственности и обрабатывает каждый файл по цепочке.
 
 UML диаграмма находится в файлах *UML*.
 
-Пример вызова: *java -jar target/scala-2.13/l20-assembly-1.0.jar 0 5 data/from0to5.txt*
+Пример вызова: *java -jar target/scala-2.13/l21-assembly-1.0.jar data/input.txt data/output.txt*

@@ -1,0 +1,8 @@
+15:47:23.427	Обработчик XML получил файл data/xmlfile1.xml
+15:47:23.428	Обработчик CSV получил файл data/csvfile1.csv
+15:47:23.429	Обработчик JSON получил файл data/jsonfile1.json
+15:47:23.430	Обработчик TXT получил файл data/txtfile1.txt
+15:47:23.431	Обработчик XML получил файл data/xmlfile2.xml
+15:47:23.432	Обработчик CSV получил файл data/csvfile2.csv
+15:47:23.432	Обработчик JSON получил файл data/jsonfile2.json
+15:47:23.433	Обработчик TXT получил файл data/txtfile2.txt
