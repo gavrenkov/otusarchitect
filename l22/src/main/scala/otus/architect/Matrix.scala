@@ -8,6 +8,7 @@ class Matrix {
   var matrix: Array[Array[Int]] = _
   var rowsNumber: Int = 0 // кол-во строк
   var colsNumber: Int = 0 // кол-во столбцов
+  var det: Int = 0 // Детерминант
 
   // Создаем пустую матрицу размера n x m
   def this(n: Int, m: Int) = {
@@ -68,6 +69,11 @@ class Matrix {
       for (j <- 0 until colsNumber)
         matrix(i)(j) = scala.util.Random.between(min, max)
     this
+  }
+
+  // Изменить матрицу
+  def setMatrix(m: Array[Array[Int]]): Unit = {
+    matrix = m
   }
 
   // Изменить элемент матрицы
@@ -157,7 +163,7 @@ class Matrix {
   }
 
   // Детерминант матрицы
-  def det(): Int = {
+  def determinant(): Int = {
     def minor(a: Array[Array[Int]], x: Int, y: Int): Array[Array[Int]] = {
       val length: Int = a.length - 1
       val result: Array[Array[Int]] = Array.ofDim[Int](length, length)
@@ -186,6 +192,10 @@ class Matrix {
     }
 
     dt(matrix)
+  }
+
+  def computeDeterminant(): Unit = {
+    det = determinant()
   }
 
   // Печать матрицы

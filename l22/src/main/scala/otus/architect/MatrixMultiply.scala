@@ -1,6 +1,6 @@
 package otus.architect
 
-class MatrixAdd(override val inputFiles: Array[String], override val outputFile: String) extends MatrixOps {
+class MatrixMultiply(override val inputFiles: Array[String], override val outputFile: String) extends MatrixOps {
   private val matrixA: Matrix = new Matrix()
   private val matrixB: Matrix = new Matrix()
   private val matrixC: Matrix = new Matrix()
@@ -12,7 +12,7 @@ class MatrixAdd(override val inputFiles: Array[String], override val outputFile:
   }
 
   override protected def doOps(): Unit = {
-    invoker.execute(new AddCommand(matrixA, matrixB, matrixC))
+    invoker.execute(new MultiplyCommand(matrixA, matrixB, matrixC))
   }
 
   override protected def output(outputFile: String): Unit = {

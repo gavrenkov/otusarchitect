@@ -20,18 +20,34 @@ class WriteCommand(matrix: Matrix, filename: String) extends Command {
   }
 }
 
-class RunCommand(args: Array[String]) extends Command {
-  override def toString: String = "Run Command"
+class MultiplyCommand(matrixA: Matrix, matrixB: Matrix, matrixC: Matrix) extends Command {
+  override def toString: String = "Multiply Command"
 
   override def execute(): Unit = {
-    val matrixOps: MatrixOps = args(0) match {
-      case "*" => new MatrixMult(args.slice(1, 3), args(3))
-      case "+" => new MatrixAdd(args.slice(1, 3), args(3))
-      case "t" => new MatrixTrans(args.slice(1, 2), args(2))
-      case "d" => new MatrixDet(args.slice(1, 2), args(2))
-      case _ => println("Unknown operation")
-        sys.exit(-1)
-    }
-    matrixOps.run()
+    matrixC.setMatrix(matrixA.multiply(matrixB, 1).matrix)
+  }
+}
+
+class AddCommand(matrixA: Matrix, matrixB: Matrix, matrixC: Matrix) extends Command {
+  override def toString: String = "Add Command"
+
+  override def execute(): Unit = {
+    matrixC.setMatrix(matrixA.add(matrixB, 1).matrix)
+  }
+}
+
+class TransposeCommand(matrixA: Matrix, matrixC: Matrix) extends Command {
+  override def toString: String = "Transpose Command"
+
+  override def execute(): Unit = {
+    matrixC.setMatrix(matrixA.transpose().matrix)
+  }
+}
+
+class DeterminantCommand(matrixA: Matrix) extends Command {
+  override def toString: String = "Determinant Command"
+
+  override def execute(): Unit = {
+    matrixA.computeDeterminant()
   }
 }

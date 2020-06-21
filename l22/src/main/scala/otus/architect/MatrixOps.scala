@@ -1,5 +1,6 @@
 package otus.architect
 
+// Template for Operations with Matrices
 abstract class MatrixOps {
   val inputFiles: Array[String]
   val outputFile: String
